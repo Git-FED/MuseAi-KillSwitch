@@ -1,0 +1,12 @@
+# Percentages of the monthly usage cap. Each threshold fires once per crossing.
+thresholds:
+  - pct: 5.0
+    action: notify
+    channel: '#muse-linkup'
+  - pct: 7.5
+    action: pause_non_essential
+    channel: '#muse-linkup'
+  - pct: 10.0
+    action: pause_all_and_prompt_kill
+    channel: '#muse-linkup'
+    dm: true

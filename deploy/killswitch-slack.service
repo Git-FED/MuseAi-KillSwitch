@@ -1,0 +1,14 @@
+[Unit]
+Description=Muse Kill Switch Slack adapter
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/workspace/killswitch
+EnvironmentFile=%h/workspace/killswitch/.env
+ExecStart=%h/workspace/killswitch/.venv/bin/python -m slack.app
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,19 @@
+# Every killable agent must be listed here. Unknown names are refused by operators.
+agents:
+  - name: muse2
+    essential: true
+    kind: orchestrator
+    run_loop: ~/workspace/muse2/run.py
+    scheduler: cron
+  - name: poster
+    essential: false
+    kind: publisher
+    run_loop: ~/workspace/poster/run.py
+    scheduler: systemd-timer
+    queue: ~/workspace/poster/queue
+  - name: feed-promo
+    essential: false
+    kind: publisher
+    run_loop: ~/workspace/feed-promo/run.py
+    scheduler: systemd-timer
+    queue: ~/workspace/feed-promo/queue

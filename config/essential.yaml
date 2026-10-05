@@ -1,0 +1,3 @@
+# Exempt from 7.5% auto-pause. Still affected by 10% and global KILL ALL.
+essential:
+  - muse2
