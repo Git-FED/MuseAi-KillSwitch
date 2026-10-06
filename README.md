@@ -1,5 +1,7 @@
 # Muse Kill Switch Suite
 
+<img width="2560" height="1440" alt="fed-kill-switch-panic" src="https://github.com/user-attachments/assets/91a4acb7-891c-437d-b212-54184bb1b68b" />
+
 > A defense-in-depth control plane for autonomous agents: external state, fail-closed guards, budget tripwires, queue enforcement, audit receipts, and a beautiful operator reference site.
 
 **Status:** runnable reference implementation · **Python:** 3.10+ · **State:** SQLite · **UI:** standalone HTML · **macOS:** deliberately excluded from wrapper targets
