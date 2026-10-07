@@ -58,3 +58,8 @@ For a visual reference, open `site/index.html` directly in a browser. It has no 
 ## Important deployment note
 
 This is a reference implementation, not a substitute for a production security review. Put the database on durable storage, restrict who can execute the break-glass script, and test the kill path during a controlled incident drill before connecting it to real agents.
+
+Check out Muse, your personal AI agent. Redeem my code in Settings within 48 hours of joining and we'll both get 1 billion Muse tokens.
+
+Code: 5F2V31
+https://muse.ai/join
